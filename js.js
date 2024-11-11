@@ -28,7 +28,7 @@ function getQuote(previous) {
 
         // checks if the new quote is the same as the last one generated
         if (newQuote !== previous) {
-            return newQuote; // Return the new quote if it's different
+            return newQuote;
         }
         iterations++;
     }
