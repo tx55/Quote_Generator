@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium';
+
+    --bg-primary: #1b1b1b;
+    --font-primary: #f1f1f1;
+}
+
+body {
+    background: var(--bg-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.left {
+    width: 50%;
+}
+
+.left h1 {
+    margin-bottom: 50px;
+    font-weight: 400;
+    color: var(--font-primary);
+}
+
+.left .quote-button {
+    width: 200px;
+    height: 50px;
+
+    border: 2px solid var(--font-primary);
+    background: var(--bg-primary);
+    color: var(--font-primary);
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.left .quote-button:hover {
+    background: var(--font-primary);
+    color: var(--bg-primary);
+}
+
+.right {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding-right: 150px;
+    color: var(--font-primary);
+}
+
+.right .quote {
+    margin-bottom: 50px;
+    font-weight: 500;
+} 
+
+.right .author {
+    text-align: right;
+    font-weight: 400;
+} 
